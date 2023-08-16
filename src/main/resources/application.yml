@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    redis:
+      host: redis.liulep.com
+      password: Liu021116
+      port: 6379
