@@ -90,6 +90,8 @@ public class RedisDistributeLockImpl implements RedisDistributeLock {
                             updateTimeThread.interrupt();
                         }
                     }
+                }else{
+                    releaseLock(key);
                 }
             }
         }
